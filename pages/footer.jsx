@@ -1,0 +1,91 @@
+import React from 'react'
+import { FaFacebookF, FaTwitter,FaInstagram,FaLinkedinIn } from 'react-icons/fa';
+
+
+const Footer = () => {
+  return (
+    <footer className="text-gray-600 body-font">
+    <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <a className="flex  items-center md:justify-start justify-center ">
+          <img src="/hrzilla.svg" alt="brand logo" />
+        </a>
+       
+      </div>
+      <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 className=" font-medium text-purple-900 tracking-widest text-sm mb-3">SERVICES</h2>
+          <nav className="list-none mb-10">
+            <li>
+              <a className="text-gray-600 hover:text-gray-800">IT Recuirtment Services</a>
+            </li>
+            <li>
+              <a className="text-gray-600 hover:text-gray-800">Careers</a>
+            </li>
+            <li>
+              <a className="text-gray-600 hover:text-gray-800">Legal & Companies</a>
+            </li>
+            <li>
+              <a className="text-gray-600 hover:text-gray-800">Outsourcing Representative</a>
+            </li>
+          </nav>
+        </div>
+       
+        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 className=" font-medium text-purple-900 tracking-widest text-sm mb-3">COMPANY</h2>
+          <nav className="list-none mb-10">
+            <li>
+              <a className="text-gray-600 hover:text-gray-800">Job Offers</a>
+            </li>
+            <li>
+              <a className="text-gray-600 hover:text-gray-800">Submit CV</a>
+            </li>
+            <li>
+              <a className="text-gray-600 hover:text-gray-800">Our Team</a>
+            </li>
+           
+          </nav>
+        </div>
+        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 className=" font-medium text-purple-900 tracking-widest text-sm mb-3">CONTACT</h2>
+          <nav className="list-none mb-10">
+            <li>
+              <a className="text-gray-600 hover:text-gray-800">About Us</a>
+            </li>
+            <li>
+              <a className="text-gray-600 hover:text-gray-800">Project Model</a>
+            </li>
+            <li>
+              <a className="text-gray-600 hover:text-gray-800">Join Us</a>
+            </li>
+           
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div className="bg-red-100">
+      <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+        <p className="text-gray-500 text-sm text-center sm:text-left">© 2023 Hrzilla —
+          <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@Nadya Khan</a>
+        </p>
+        <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+          <a className="text-purple-500 cursor-pointer">
+            <FaFacebookF/>
+          </a>
+          <a className="ml-3 text-purple-500 cursor-pointer">
+            <FaTwitter/>
+          </a>
+          <a className="ml-3 text-purple-500 cursor-pointer">
+            <FaInstagram/>
+          </a>
+          <a className="ml-3 text-purple-500 cursor-pointer">
+            <FaLinkedinIn/>
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+  )
+}
+
+export default Footer

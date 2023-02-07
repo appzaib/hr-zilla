@@ -1,5 +1,7 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter,FaInstagram,FaLinkedinIn } from 'react-icons/fa';
+import Link from 'next/link';
+
 
 
 const Footer = () => {
@@ -17,7 +19,7 @@ const Footer = () => {
           <h2 className=" font-medium text-purple-900 tracking-widest text-sm mb-3">SERVICES</h2>
           <nav className="list-none mb-10">
             <li>
-              <a className="text-gray-600 hover:text-gray-800">IT Recuirtment Services</a>
+              <Link href={'/recruitment'} className="text-gray-600 hover:text-gray-800">IT Recuirtment Services</Link>
             </li>
             <li>
               <a className="text-gray-600 hover:text-gray-800">Careers</a>
@@ -26,7 +28,7 @@ const Footer = () => {
               <a className="text-gray-600 hover:text-gray-800">Legal & Companies</a>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Outsourcing Representative</a>
+              <Link href={'/outstaffing'} className="text-gray-600 hover:text-gray-800">Outsourcing Representative</Link>
             </li>
           </nav>
         </div>
@@ -50,32 +52,32 @@ const Footer = () => {
         <h2 className=" font-medium text-purple-900 tracking-widest text-sm mb-3">CONTACT</h2>
           <nav className="list-none mb-10">
             <li>
-              <a className="text-gray-600 hover:text-gray-800">About Us</a>
+              <Link href={'/about'} className="text-gray-600 hover:text-gray-800">About Us</Link>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Project Model</a>
+              <Link href={'/'} className="text-gray-600 hover:text-gray-800">Project Model</Link>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Join Us</a>
+              <Link href={'/contact'} className="text-gray-600 hover:text-gray-800">Join Us</Link>
             </li>
            
           </nav>
         </div>
       </div>
     </div>
-    <div className="bg-red-100">
+    <div className="bg-gradient-to-r from-rose-50 via-sky-50 to-teal-50 ">
       <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
         <p className="text-gray-500 text-sm text-center sm:text-left">© 2023 Hrzilla —
-          <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@Nadya Khan</a>
+          <a href="https://twitter.com/NadiaIq60618409" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@Nadya Khan</a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-          <a className="text-purple-500 cursor-pointer">
+          <a href="https://facebook.com/nadyakhan0026" className="text-purple-500 cursor-pointer">
             <FaFacebookF/>
           </a>
-          <a className="ml-3 text-purple-500 cursor-pointer">
+          <a href="https://twitter.com/NadiaIq60618409" className="ml-3 text-purple-500 cursor-pointer">
             <FaTwitter/>
           </a>
-          <a className="ml-3 text-purple-500 cursor-pointer">
+          <a href="https://instagram.com/nadyakhan_nk" className="ml-3 text-purple-500 cursor-pointer">
             <FaInstagram/>
           </a>
           <a className="ml-3 text-purple-500 cursor-pointer">

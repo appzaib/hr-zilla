@@ -1,12 +1,84 @@
-import {GiExpense,GiControlTower,GiLightBulb,GiTeamIdea } from 'react-icons/gi';
-import {FaQuoteRight } from 'react-icons/fa';
+import {GiExpense,GiControlTower,GiLightBulb,GiTeamIdea,GiChatBubble } from 'react-icons/gi';
+import {FaQuoteRight,FaLongArrowAltRight } from 'react-icons/fa';
+import Link from 'next/link';
 
 
 const Feature = () => {
   return (
     <div className='container text-gray-600'>
+      
+  <div className=" mx-auto flex px-5  md:flex-row flex-col items-center">
+    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:pl-36 mb-16 md:mb-0 items-center text-center">
+      <h1 className=" sm:text-2xl text-5xl mb-4 font-medium text-red-900">We Get People
+        <br className="hidden lg:inline-block"/>You Get Success
+      </h1>
+      <p className="mb-8 leading-relaxed md:text-xl">HRzilla is everything HR. A configurable, scalable, blend of expert advice, services and technology tailored to both transform and help your organisation work.</p>
+      <div className="flex justify-center">
+        <button className="inline-flex text-white bg-fuchsia-600 border-0 py-2 px-6 focus:outline-none hover:bg-fuchsia-700 rounded-br-full text-lg">HR Outsourcing</button>
+        <button className="ml-4 inline-flex text-white bg-fuchsia-600 border-0 py-2 px-6 focus:outline-none hover:bg-fuchsia-700 rounded-br-full text-lg">HR Consultancy</button>
+      </div>
+    </div>
+    <div className="lg:max-w-lg lg:w-full md:w-3/4 w-5/6">
+    
+      <img className="object-cover object-center rounded" alt="hero" src="/teamhr.png"/>
 
-    <div className=" px-5 py-5 mx-auto">
+    </div>
+  </div>
+  <div>
+      <h2 className="text-3xl text-red-900 md:ml-20 font-medium">OUR SERVICES</h2>
+      <div className="h-1 w-20 bg-purple-500 rounded md:ml-20"></div>
+    
+  <div  className="md:px-10 pb-24 pt-16 mx-auto flex flex-wrap">
+    <div  className="flex flex-wrap -m-4">
+      <div  className="p-4 lg:w-1/2 md:w-full">
+        <div  className="flex   p-8 sm:flex-row flex-col">
+          <div  className=" w-64 h-32 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full flex-shrink-0">
+            <img src="/recruitment.webp" alt="" />
+          </div>
+          <div  className="flex-grow">
+            <Link href={'/recruitment'}><h2  className="text-red-900 md:text-3xl font-medium mb-3">IT Recruitment</h2></Link>
+            <p  className="leading-relaxed text-base">Hire top software developers from Asia.</p>
+            <a  className="mt-3 text-red-500 inline-flex items-center cursor-pointer">
+<FaLongArrowAltRight/>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div  className="p-4 lg:w-1/2 md:w-full">
+        <div  className="flex   p-8 sm:flex-row flex-col">
+          <div  className=" w-64 h-32 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full  flex-shrink-0">
+          <img src="/outstaff.jfif" alt="" />
+          </div>
+          <div  className="flex-grow">
+            <Link href={'/outstaffing'}><h2  className="text-red-900 md:text-3xl font-medium mb-3">Outstaffing</h2></Link>
+            <p  className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+            <a  className="mt-3 text-red-500 inline-flex items-center cursor-pointer">
+            <FaLongArrowAltRight />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div className=" mx-auto flex md:flex-row flex-col items-center">
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <img className="object-cover object-center rounded-tl-3xl rounded-br-3xl" alt="hero" src="/hrconsultant.jpeg"/>
+    </div>
+    <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center md:pr-28">
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-900">About Us
+      </h1>
+      <p className="mb-5 leading-relaxed ">IT Smart Solutions has 13 years of experience in HR services, IT staff expansion and BPO.</p>
+      <p className="mb-8 leading-relaxed">We help businesses find developers, launch back offices and support IT companies from around the world in Eastern Europe and Central Asia</p>
+      <div className="flex justify-center">
+        <Link href={'/about'}><button className="inline-flex text-white bg-fuchsia-600  border-0 shadow-md py-2 px-6 focus:outline-none hover:bg-fuchsia-700 rounded-3xl text-lg">About The Company</button>
+        </Link></div>
+    </div>
+  </div>
+
+
+    <div className=" px-5 py-12 mx-auto">
       <div className="flex flex-col text-center w-full mb-4">
         <h1 className="sm:text-3xl text-2xl font-medium  text-red-900">You Will Recieve</h1>
         </div>
@@ -30,9 +102,9 @@ const Feature = () => {
       </div>
       </div>
   
-      <div className=" bg-gradient-to-r from-red-400 to-purple-100">
+      <div className="  bg-gradient-to-r from-blue-900 to-fuchsia-700">
           <div className="text-center w-full">
-          <h1 className="title-font sm:text-4xl text-3xl pt-4 font-medium text-white">CUSTOMER BENEFITS:</h1>
+          <h1 className="title-font sm:text-4xl text-3xl pt-4 font-bold text-white">CUSTOMER BENEFITS:</h1>
         </div>
       
     <div className=" px-5 py-4 mx-auto flex flex-wrap">
@@ -47,8 +119,8 @@ const Feature = () => {
             <GiExpense className=' w-10 h-10'/>
           </div>
           <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 className="font-medium title-font text-yellow-800 mb-1 text-xl">No additional expenses</h2>
-            <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+            <h2 className="font-bold  text-white mb-2 text-2xl">No additional expenses</h2>
+            <p className="leading-relaxed text-white font-medium">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
           </div>
         </div>
       </div>
@@ -62,8 +134,8 @@ const Feature = () => {
             <GiControlTower className=' w-10 h-10'/>
           </div>
           <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 className="font-medium title-font text-yellow-800 mb-1 text-xl">Full control</h2>
-            <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+            <h2 className="font-bold text-white mb-2 text-2xl">Full control</h2>
+            <p className="leading-relaxed text-white font-medium">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
           </div>
         </div>
       </div>
@@ -77,8 +149,8 @@ const Feature = () => {
             <GiLightBulb className=' w-10 h-10'/>
           </div>
           <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 className="font-medium title-font text-yellow-800 mb-1 text-xl">Better solutions</h2>
-            <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+            <h2 className="font-bold text-white mb-2 text-2xl">Better solutions</h2>
+            <p className="leading-relaxed text-white font-medium">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
           </div>
         </div>
       </div>
@@ -92,8 +164,8 @@ const Feature = () => {
             <GiTeamIdea className=' w-10 h-10'/>
           </div>
           <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 className="font-medium title-font text-yellow-800 mb-1 text-xl">Complete team of developers</h2>
-            <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+            <h2 className="font-bold text-white mb-2 text-2xl">Complete team of developers</h2>
+            <p className="leading-relaxed text-white font-medium">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
           </div>
         </div>
       </div>
@@ -102,7 +174,51 @@ const Feature = () => {
     
   
   </div>
-  <div className="px-5 py-5 mx-auto ">
+  
+  <div  className="px-5 py-8 mx-auto bg-gray-50">
+    <div  className="flex flex-col text-center w-full mb-20">
+      <h1  className="sm:text-3xl text-3xl font-medium  text-red-800">EXPERIENCED TEAMS</h1>
+      </div>
+    <div  className="flex flex-wrap -m-4 text-center">
+      <div  className="md:w-1/4 sm:w-1/2 w-full">
+        <div  className="border-2 border-b-0 border-l-0 border-gray-200 px-4 py-6 ">
+          
+          <h2  className="font-medium text-3xl text-gray-900">25+</h2>
+          <p  className="leading-relaxed">Accounting Teams</p>
+        </div>
+      </div>
+      <div  className="md:w-1/4 sm:w-1/2 w-full">
+        <div  className="border-2 border-gray-200 px-4 py-6  border-b-0 border-l-0">
+          
+          <h2  className="font-bold text-3xl text-gray-900">25+</h2>
+          <p  className="leading-relaxed">Users</p>
+        </div>
+      </div>
+      <div  className="md:w-1/4 sm:w-1/2 w-full">
+        <div  className="border-2 border-gray-200 px-4 py-6  border-b-0 border-l-0">
+          
+          <h2  className="font-bold text-3xl text-gray-900">30+</h2>
+          <p  className="leading-relaxed">HR Teams</p>
+        </div>
+      </div>
+      <div  className="md:w-1/4 sm:w-1/2 w-full">
+        <div  className="border-2 border-gray-200 px-4 py-6  border-b-0 border-r-0 border-l-0">
+          
+          <h2  className="font-bold text-3xl text-gray-900">6+</h2>
+          <p  className="leading-relaxed">Legal Teams</p>
+        </div>
+      </div>
+
+    </div>
+    <div  className="flex justify-center pt-12">
+      <Link href={'/contact'} > <button  className="inline-flex text-white border-0 py-2 px-6 bg-fuchsia-600 hover:bg-fuchsia-700 focus:outline-none rounded font-medium text-lg">Request a Consultation</button>
+       </Link>
+         </div>
+    
+    
+  </div>
+
+  <div className="px-5 py-8 mx-auto bg-slate-200">
       <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
         <FaQuoteRight className="inline-block w-8 h-8 text-purple-400 mb-8"/>
         <p className="leading-relaxed text-lg">Hiring Hrzilaa is one of the best decisions.We've made in the history of our company recommending them is 1000% a no-brainer.Would'nt hire anyone else</p>
@@ -111,8 +227,30 @@ const Feature = () => {
         <p className="text-gray-500"> Product Designer</p>
       </div>
     </div>
+  
+  <div className="mx-5 my-8 ">
+    <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start p-16 mx-auto rounded-br-full bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900">
+      <GiChatBubble className='w-16 h-16 text-white'/>
+      <h1 className="flex-grow sm:pr-16 text-3xl font-medium pl-7 text-white">How can we help you?</h1>
+     <Link href={'/contact'} > <button className="flex-shrink-0 text-red-900 bg-white border-0 py-2 px-8 focus:outline-none hover:bg-white rounded-br-full text-lg mt-10 sm:mt-0">Request a Call</button>
+  </Link>
+       </div>
+  </div>
+
   </div>
   )
 }
 
 export default Feature
+
+
+
+
+
+
+
+
+
+
+
+

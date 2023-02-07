@@ -2,7 +2,8 @@ import React from 'react'
 
 const ContactUs = () => {
   return (
-    <div className="container  relative">
+    <div className="container">
+        <div> <h1 class="text-5xl font-bold text-red-900 text-center mx-auto mt-12">GET IN TOUCH</h1> </div> 
     <div className=" px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
       <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden bg-no-repeat  bg-cover sm:bg-cover w-full sm:mr-10 p-10 flex items-end justify-start relative"  style={{
       backgroundImage: `url("/aboutteam.jpg")`,

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <div className='container'>
+    <div className=''>
     <div className="flex flex-wrap">
   <div
     className="bg-no-repeat  bg-cover sm:bg-cover w-full sm:w-full sm:h-5/6 h-5/6 "

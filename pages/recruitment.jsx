@@ -5,7 +5,7 @@ import {GiChatBubble  } from 'react-icons/gi'
 
 const Recruitment = () => {
   return (
-    <div className='container'>
+    <div className=''>
     <div className=" mx-auto flex px-5 py-24 md:flex-row flex-col items-center ">
       <div className="lg:flex-grow md:pl-14 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1 className="sm:text-4xl md:text-5xl mb-4 font-medium text-red-900">IT Recruitment
@@ -80,12 +80,12 @@ Saving your time and money</h2>
     </div>
   </div>
   <div className="mx-5 my-8 ">
-    <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start p-16 mx-auto rounded-br-full bg-black">
+    <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start p-16 mx-auto rounded-br-full bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900">
       <GiChatBubble className='w-16 h-16 text-white'/>
-      <h1 className="flex-grow sm:pr-16 text-4xl font-medium pl-7 text-red-900">What IT talent
+      <h1 className="flex-grow sm:pr-16 text-4xl font-medium pl-7 text-white">What IT talent
 are you looking for?
 </h1>
-      <button className="flex-shrink-0 text-red-900 bg-white border-0 py-2 font-medium px-8 focus:outline-none hover:bg-white rounded-br-full text-lg mt-10 sm:mt-0">Request a Call</button>
+      <button className="flex-shrink-0 text-red-900 font-medium bg-white border-0 py-2 font-medium px-8 focus:outline-none hover:bg-white rounded-br-full text-lg mt-10 sm:mt-0">Request a Call</button>
     </div>
   </div>
 

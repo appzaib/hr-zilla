@@ -8,7 +8,7 @@ const Recruitment = () => {
     <div className=''>
     <div className=" mx-auto flex px-5 py-24 md:flex-row flex-col items-center ">
       <div className="lg:flex-grow md:pl-14 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <h1 className="sm:text-4xl md:text-5xl mb-4 font-medium text-red-900">IT Recruitment
+        <h1 className="sm:text-4xl md:text-5xl mb-4 font-bold text-black">IT Recruitment
          
         </h1>
         <p className="mb-8 text-xl leading-relaxed">Having vast experience in recruiting and a large talent pool, we can deliver the right candidates to you in less than 3 days.</p>
@@ -18,7 +18,7 @@ const Recruitment = () => {
         <img className="object-cover object-center rounded" alt="hero" src="/about.jpg"/>
       </div>
     </div>
-    <div className=" mx-auto flex px-5 py-24 md:flex-row flex-col items-center bg-gray-200 ">
+    <div className=" mx-auto flex px-5 py-24 md:flex-row flex-col items-center  ">
       <div className="lg:flex-grow md:pl-14 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h2 className='sm:text-2xl md:text-3xl mb-4 font-medium text-blue-700'>Ready to hire?</h2>
         <h1 className="sm:text-4xl md:text-5xl mb-4 font-medium text-black">Save your time and recruit top IT talents with us!
@@ -32,7 +32,7 @@ const Recruitment = () => {
       </div>
     </div>
  
-  <div className=" px-5 py-24 mx-auto bg-sky-200">
+  <div className=" px-5 py-24 mx-auto bg-fuchsia-200">
     <h1 className="sm:text-3xl md:text-5xl font-medium  text-center text-gray-900 mb-20">What can you expect?
      
     </h1>
@@ -80,12 +80,12 @@ Saving your time and money</h2>
     </div>
   </div>
   <div className="mx-5 my-8 ">
-    <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start p-16 mx-auto rounded-br-full bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900">
+    <div className="lg:w-2/3  flex flex-col sm:flex-row sm:items-center items-start p-16 mx-auto rounded-br-full bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900">
       <GiChatBubble className='w-16 h-16 text-white'/>
       <h1 className="flex-grow sm:pr-16 text-4xl font-medium pl-7 text-white">What IT talent
 are you looking for?
 </h1>
-      <button className="flex-shrink-0 text-red-900 font-medium bg-white border-0 py-2 font-medium px-8 focus:outline-none hover:bg-white rounded-br-full text-lg mt-10 sm:mt-0">Request a Call</button>
+      <button className="flex-shrink-0 text-red-900  bg-white border-0 py-2 font-medium px-8 focus:outline-none hover:bg-white rounded-br-full text-lg mt-10 sm:mt-0">Request a Call</button>
     </div>
   </div>
 

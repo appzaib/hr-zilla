@@ -67,12 +67,12 @@ const Feature = () => {
       <img className="object-cover object-center rounded-tl-3xl rounded-br-3xl" alt="hero" src="/hrconsultant.jpeg"/>
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center md:pr-28">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-900">About Us
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">About Us
       </h1>
       <p className="mb-5 leading-relaxed ">IT Smart Solutions has 13 years of experience in HR services, IT staff expansion and BPO.</p>
       <p className="mb-8 leading-relaxed">We help businesses find developers, launch back offices and support IT companies from around the world in Eastern Europe and Central Asia</p>
       <div className="flex justify-center">
-        <Link href={'/about'}><button className="inline-flex text-white bg-fuchsia-600  border-0 shadow-md py-2 px-6 focus:outline-none hover:bg-fuchsia-700 rounded-3xl text-lg">About The Company</button>
+        <Link href={'/about'}><button className="inline-flex text-white bg-fuchsia-600  border-0 shadow-md py-2 px-6 focus:outline-none hover:bg-fuchsia-700 rounded text-lg">About The Company</button>
         </Link></div>
     </div>
   </div>
@@ -80,7 +80,7 @@ const Feature = () => {
 
     <div className=" px-5 py-28 mx-auto">
       <div className="flex flex-col text-center w-full mb-4">
-        <h1 className="sm:text-3xl text-2xl font-medium  text-red-900">You Will Recieve</h1>
+        <h1 className="sm:text-3xl text-2xl font-medium  text-black">You Will Recieve</h1>
         </div>
       <div className="flex flex-wrap">
         <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-red-200 border-opacity-60">
@@ -177,7 +177,7 @@ const Feature = () => {
   
   <div  className="px-5 py-16 mx-auto bg-gray-50">
     <div  className="flex flex-col text-center w-full mb-20">
-      <h1  className="sm:text-3xl text-3xl font-medium  text-red-900">EXPERIENCED TEAMS</h1>
+      <h1  className="sm:text-3xl text-3xl font-medium  text-black">EXPERIENCED TEAMS</h1>
       </div>
     <div  className="flex flex-wrap -m-4 text-center">
       <div  className="md:w-1/4 sm:w-1/2 w-full">
@@ -221,7 +221,7 @@ const Feature = () => {
   <div className="px-5 py-16 mx-auto bg-slate-200">
       <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
         <FaQuoteRight className="inline-block w-8 h-8 text-fuchsia-500 mb-8"/>
-        <p className="leading-relaxed text-lg">Hiring Hrzilaa is one of the best decisions.We've made in the history of our company recommending them is 1000% a no-brainer.Would'nt hire anyone else</p>
+        <p className="leading-relaxed text-lg">Hiring Hrzilla is one of the best decisions. We've made in the history of our company recommending them is 1000% a no-brainer. Would'nt hire anyone else.</p>
         <span className="inline-block h-1 w-10 rounded bg-fuchsia-500 mt-8 mb-6"></span>
         <h2 className="text-gray-900 font-medium  tracking-wider text-sm">Nadya Khan</h2>
         <p className="text-gray-500"> Product Designer</p>

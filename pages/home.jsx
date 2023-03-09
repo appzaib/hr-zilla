@@ -6,32 +6,32 @@ import Link from 'next/link';
 const Feature = () => {
   return (
     <div className=' text-gray-600'>
-      
-  <div className=" mx-auto flex px-5  md:flex-row flex-col items-center">
-    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:pl-36 mb-16 md:mb-0 items-center text-center">
-      <h1 className=" sm:text-2xl text-5xl mb-4 font-medium text-red-900">We Get People
-        <br className="hidden lg:inline-block"/>You Get Success
+      <div className='container mx-auto px-4'>
+  <div className="flex md:flex-row flex-col items-center">
+    <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 className="md:text-3xl text-2xl mb-4 font-medium text-red-900">We Get People
+        <br className="lg:inline-block"/>You Get Success
       </h1>
-      <p className="mb-8 leading-relaxed md:text-xl">HRzilla is everything HR. A configurable, scalable, blend of expert advice, services and technology tailored to both transform and help your organisation work.</p>
+      <p className="mb-8 leading-relaxed md:text-xl px-4 md:px-0">HRzilla is everything HR. A configurable, scalable, blend of expert advice, services and technology tailored to both transform and help your organisation work.</p>
       <div className="flex justify-center">
         <button className="inline-flex text-white bg-fuchsia-600 border-0 py-2 px-12 focus:outline-none hover:bg-fuchsia-700 rounded-br-full text-lg">HR Outsourcing</button>
         <button className="ml-4 inline-flex text-white bg-fuchsia-600 border-0 py-2 px-12 focus:outline-none hover:bg-fuchsia-700 rounded-br-full text-lg">HR Consultancy</button>
       </div>
     </div>
-    <div className="lg:max-w-lg lg:w-full md:w-3/4 w-5/6">
+    <div className="w-full md:w-2/6 md:mb-0 mb-12">
     
       <img className="object-cover object-center rounded" alt="hero" src="/teamhr.png"/>
 
     </div>
   </div>
   <div>
-      <h2 className="text-3xl text-red-900 md:ml-20 font-medium">OUR SERVICES</h2>
-      <div className="h-1 w-20 bg-fuchsia-500 rounded md:ml-20"></div>
+      <h2 className="text-3xl text-red-900 font-medium">OUR SERVICES</h2>
+      <div className="h-1 w-20 bg-fuchsia-500 rounded"></div>
     
-  <div  className="md:px-10 pb-24 pt-16 mx-auto flex flex-wrap">
+  <div  className="md:px-10 py-16 flex flex-wrap">
     <div  className="flex flex-wrap -m-4">
       <div  className="p-4 lg:w-1/2 md:w-full">
-        <div  className="flex   p-8 sm:flex-row flex-col">
+        <div  className="flex p-8 sm:flex-row flex-col">
           <div  className=" w-64 h-32 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full flex-shrink-0">
             <img src="/recruitment.webp" alt="" />
           </div>
@@ -62,12 +62,12 @@ const Feature = () => {
   </div>
   </div>
 
-  <div className=" mx-auto flex md:flex-row flex-col items-center">
-    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+  <div className="flex md:flex-row flex-col items-center">
+    <div className="w-full md:w-5/12 mb-10 md:mb-0">
       <img className="object-cover object-center rounded-tl-3xl rounded-br-3xl" alt="hero" src="/hrconsultant.jpeg"/>
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center md:pr-28">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">About Us
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black -mt-3">About Us
       </h1>
       <p className="mb-5 leading-relaxed ">IT Smart Solutions has 13 years of experience in HR services, IT staff expansion and BPO.</p>
       <p className="mb-8 leading-relaxed">We help businesses find developers, launch back offices and support IT companies from around the world in Eastern Europe and Central Asia</p>
@@ -78,7 +78,7 @@ const Feature = () => {
   </div>
 
 
-    <div className=" px-5 py-28 mx-auto">
+    <div className="py-28">
       <div className="flex flex-col text-center w-full mb-4">
         <h1 className="sm:text-3xl text-2xl font-medium  text-black">You Will Recieve</h1>
         </div>
@@ -101,13 +101,13 @@ const Feature = () => {
           </div>
       </div>
       </div>
-  
-      <div className="  bg-gradient-to-r from-red-900 to-fuchsia-700 py-16">
+      </div>
+      <div className="bg-gradient-to-r from-red-900 to-fuchsia-700 py-16">
           <div className="text-center w-full">
           <h1 className=" sm:text-4xl text-3xl  font-bold text-white">CUSTOMER BENEFITS:</h1>
         </div>
       
-    <div className=" px-5 py-4 mx-auto flex flex-wrap">
+    <div className="px-4 py-4 mx-auto flex flex-wrap">
       
       <div className="flex relative pt-10 pb-10 sm:items-center md:w-2/3 mx-auto">
         <div className="h-full w-6 absolute  flex items-center justify-center">
@@ -175,7 +175,7 @@ const Feature = () => {
   
   </div>
   
-  <div  className="px-5 py-16 mx-auto bg-gray-50">
+  <div  className="px-4 py-16 mx-auto bg-gray-50">
     <div  className="flex flex-col text-center w-full mb-20">
       <h1  className="sm:text-3xl text-3xl font-medium  text-black">EXPERIENCED TEAMS</h1>
       </div>
@@ -228,7 +228,7 @@ const Feature = () => {
       </div>
     </div>
   
-  <div className="mx-5 my-16 ">
+  <div className="mx-4 my-16 ">
     <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start p-16 mx-auto rounded-br-full bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900">
       <GiChatBubble className='w-16 h-16 text-white'/>
       <h1 className="flex-grow sm:pr-16 text-3xl font-medium pl-7 text-white">How can we help you?</h1>

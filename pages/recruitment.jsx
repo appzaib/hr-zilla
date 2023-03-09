@@ -6,8 +6,8 @@ import {GiChatBubble  } from 'react-icons/gi'
 const Recruitment = () => {
   return (
     <div className=''>
-    <div className=" mx-auto flex px-5 py-24 md:flex-row flex-col items-center ">
-      <div className="lg:flex-grow md:pl-14 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+    <div className="container mx-auto flex px-4 py-24 md:flex-row flex-col items-center ">
+      <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1 className="sm:text-4xl md:text-5xl mb-4 font-bold text-black">IT Recruitment
          
         </h1>
@@ -18,8 +18,8 @@ const Recruitment = () => {
         <img className="object-cover object-center rounded" alt="hero" src="/about.jpg"/>
       </div>
     </div>
-    <div className=" mx-auto flex px-5 py-24 md:flex-row flex-col items-center  ">
-      <div className="lg:flex-grow md:pl-14 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+    <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center  ">
+      <div className="lg:flex-grow md:w-1/2 lg:pr-24 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h2 className='sm:text-2xl md:text-3xl mb-4 font-medium text-blue-700'>Ready to hire?</h2>
         <h1 className="sm:text-4xl md:text-5xl mb-4 font-medium text-black">Save your time and recruit top IT talents with us!
          

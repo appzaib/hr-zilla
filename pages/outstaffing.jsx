@@ -7,9 +7,9 @@ const Outstaffing = () => {
   return (
     <div className=''>
     
-  <div className=" mx-auto flex px-5 my-24  md:flex-row flex-col items-center">
-  <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:pl-36 mb-16 md:mb-0 items-center text-center">
-      <h1 className=" sm:text-5xl md:text-5xl mb-4 font-bold text-red-900">Talent On Demand 
+  <div className="container mx-auto flex px-4 my-24 md:flex-row flex-col items-center">
+  <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 className="sm:text-5xl md:text-5xl mb-4 font-bold text-red-900">Talent On Demand 
         
       </h1>
       <p className="mb-8 leading-relaxed text-3xl">Scale up your team quickly with our experienced software developers</p>
